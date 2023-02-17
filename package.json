@@ -16,7 +16,7 @@
     "react-dom": "16.13.1",
     "react-router-dom": "^6.8.1",
     "reactstrap": "^8.4.1",
-    "nodejs": "^14.21.2"
+    "node": "^14.21.2"
   },
   
 
