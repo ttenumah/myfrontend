@@ -15,10 +15,13 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-router-dom": "^6.8.1",
-    "reactstrap": "^8.4.1",
-    "node": "^14.21.2"
+    "reactstrap": "^8.4.1"
+    
   },
   
+  "engines": {
+    "node": "^14.21.2"
+  },
 
   
   "scripts": {
