@@ -27,7 +27,7 @@ class MyApp extends App {
     }
     if (token) {
       // authenticate the token on the server and place set user object
-      fetch("http://localhost:1337/users/me", {
+      fetch("https://desolate-reef-73159.herokuapp.com/users/me", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
