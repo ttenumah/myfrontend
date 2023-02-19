@@ -48,7 +48,7 @@ function RestaurantList(props) {
                   top={true}
                   style={{ height: 250 }}
                   src={
-                    process.env.NODE_ENV === "production"
+                    process.env.NODE_ENV === "development"
                       ? res.image.url
                       : `${process.env.NEXT_PUBLIC_API_URL}${res.image.url}`
                   }
